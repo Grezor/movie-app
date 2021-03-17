@@ -1,0 +1,15 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "App Movie App",
+  "main": "script.js",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
