@@ -11,5 +11,9 @@
     "start": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express-async-handler": "^1.1.4",
+    "xmlhttprequest": "^1.8.0"
+  }
 }
