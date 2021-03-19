@@ -21,7 +21,7 @@ app.get('/home', (req, res) => {
   });
 })
 
-app.get('/search/:search', (req, res) => {
+app.get('/search/&query=:search', (req, res) => {
   const search = req.params.search
   const url = SEARCH_API + search
   axios.get(url)

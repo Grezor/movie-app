@@ -1,7 +1,7 @@
 
 const API_URL = '/home'
 const IMG_PATH = 'https://image.tmdb.org/t/p/w500'
-const SEARCH_API = '/search/'
+const SEARCH_API = '/search/&query='
 
 const main = document.getElementById('main')
 const form = document.getElementById('form')
